@@ -1,12 +1,12 @@
 package co.edu.uniandes.arquiagil.api;
 
-public class Mensaje {
+public class MensajeDTO {
 	
 	private String codigo;
 	
 	private String mensaje;
 	
-	public Mensaje(String codigo, String mensaje) {
+	public MensajeDTO(String codigo, String mensaje) {
 		super();
 		this.codigo = codigo;
 		this.mensaje = mensaje;

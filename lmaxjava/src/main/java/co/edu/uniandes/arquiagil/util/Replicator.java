@@ -1,6 +1,6 @@
 package co.edu.uniandes.arquiagil.util;
 
-public interface Replicator<E> {
+public interface Replicator<E,T> {
 
-	BussinessLogic<E> replicate(E e);
+	BussinessLogic<T> replicate(E e);
 }
